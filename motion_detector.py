@@ -1,8 +1,4 @@
-# USAGE
-# python motion_detector.py
-# python motion_detector.py --video videos/example_01.mp4
 
-# import the necessary packages
 from imutils.video import VideoStream
 import argparse
 import datetime
@@ -10,7 +6,7 @@ import imutils
 import time
 import cv2
 
-# construct the argument parser and parse the arguments
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the video file")
 ap.add_argument("-a", "--min-area", type=int, default=500, help="minimum area size")
