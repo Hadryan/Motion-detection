@@ -18,6 +18,6 @@ if args.get("video", None) is None:
 	time.sleep(2.0)
 
 # otherwise, we are reading from a video file
-else:
+else: 
 	vs = cv2.VideoCapture(args["video"])
 
