@@ -19,12 +19,7 @@ if __name__=='__main__':
     # Define the background subtractor object
     bg_subtractor = cv2.createBackgroundSubtractorMOG2()
      
-    # Define the number of previous frames to use to learn. 
-    # This factor controls the learning rate of the algorithm. 
-    # The learning rate refers to the rate at which your model 
-    # will learn about the background. Higher value for 
-    # ‘history’ indicates a slower learning rate. You can 
-    # play with this parameter to see how it affects the output.
+    
     history = 100
 
     # Define the learning rate
